@@ -1,8 +1,42 @@
 .card {
-min-width: 80%;
-padding: 0 30px;
-color: #2E4052;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 2px 5px 50px #440D0F;
+  min-width: 80%;
+  min-height: 75vh;
+  margin-top: 10vh;
+  position: relative;
+}
 
-border: 1px white solid;
-border-radius: 20%;
+.card-top {
+min-width: 80%;
+height: 300px;
+color: #2E4052;
+background-color: #FAFAFA;
+border-top-left-radius: 2%;
+border-top-right-radius: 2% ;
+display: flex;
+justify-content: left;
+}
+
+
+
+
+
+.card-description {
+  background-color: #0892A5;
+  color: #FAFAFA;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+h6 {
+  color:#FAFAFA;
+}
+
+.card img{
+  width: 200px;
+  position: absolute;
+  top: 120px;
+  left: 35%;
 }

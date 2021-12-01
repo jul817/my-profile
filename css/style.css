@@ -26,6 +26,11 @@ body {
   justify-content: center;
 }
 
+h6 {
+  font-family: var(--ff-regular-400);
+
+}
+
 .container {
   display: flex;
   justify-content: center;
