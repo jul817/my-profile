@@ -20,18 +20,21 @@ justify-content: left;
 }
 
 
-
+.card-title {
+  margin-left: 25px;
+}
 
 
 .card-description {
   background-color: #0892A5;
   color: #FAFAFA;
   line-height: 1.6;
-  padding: 10px;
+  padding: 10px 0;
 }
 
-h6 {
+.card-description h6 {
   color:#FAFAFA;
+  margin: 0;
 }
 
 .card img{
@@ -39,4 +42,5 @@ h6 {
   position: absolute;
   top: 120px;
   left: 35%;
+  border-radius: 3px;
 }
