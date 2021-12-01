@@ -1,13 +1,16 @@
+/* importing components */
+@import url("components/card.css");
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* importing components */
-@import url("components/card.css");
+
 
 :root {
   /* color variables */
   --color-bg: #0892A5;
+  --color-neutral: #FAFAFA;
   /* font variables */
   --ff-primary-600: 'Montserrat', sans-serif;
   --ff-accent-400: 'Lora', serif;
@@ -18,4 +21,11 @@ body {
   font-family: var(--ff-primary-600);
   font-size: 1.3125rem;
   background-color: var(--color-bg);
+  color: var(--color-neutral)
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
 }
