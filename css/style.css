@@ -1,0 +1,12 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* color variables */
+  --color-bg: #0892A5;
+  /* font variables */
+  --ff-primary-600: 'Montserrat', sans-serif;
+  --ff-secondary-400: 'Lora', serif;
+  --ff-regular-400: 'Martel', serif;
+}
