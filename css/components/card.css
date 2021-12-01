@@ -1,20 +1,26 @@
 .card {
   display: grid;
   grid-template-columns: 1fr;
-  box-shadow: 2px 5px 50px #440D0F;
+  box-shadow: 20px 20px 50px rgba(81, 80, 82, 0.2);
   min-width: 80%;
   min-height: 75vh;
   margin-top: 10vh;
   position: relative;
+  background-color: #072D4B;
+  border-top-left-radius: 2%;
+border-top-right-radius: 2%;
+ border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+  /* background-color: #0892A5; */
 }
 
 .card-top {
 min-width: 80%;
 height: 300px;
 color: #2E4052;
-background-color: #FAFAFA;
+background-color: #EDF7F6;
 border-top-left-radius: 2%;
-border-top-right-radius: 2% ;
+border-top-right-radius: 2%;
 display: flex;
 justify-content: left;
 }
@@ -26,14 +32,16 @@ justify-content: left;
 
 
 .card-description {
-  background-color: #0892A5;
-  color: #FAFAFA;
+  background-color: #072D4B;
+  color: #EDF7F6;
   line-height: 1.6;
   padding: 10px 0;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
 }
 
 .card-description h6 {
-  color:#FAFAFA;
+  color:#EDF7F6;
   margin: 0;
 }
 

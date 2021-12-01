@@ -9,8 +9,12 @@
 
 :root {
   /* color variables */
-  --color-bg: #0892A5;
-  --color-neutral: #FAFAFA;
+  /* --color-bg: #6B9AC4; */
+  /* charcoal --color-bg: #2E4052; */
+  /* --color-bg: #D8E8E7; */
+  /* --color-bg: #C8E5F9; */
+  --color-bg: #EDF7F6;
+  /* --color-neutral: #FAFAFA; */
   /* font variables */
   --ff-primary-600: 'Montserrat', sans-serif;
   --ff-accent-400: 'Lora', serif;
@@ -21,20 +25,21 @@ body {
   font-family: var(--ff-primary-600);
   font-size: 1.3rem;
   background-color: var(--color-bg);
-  color: var(--color-neutral);
+  /* color: var(--color-neutral); */
   display: flex;
   justify-content: center;
 }
 
 h2 {
   margin-bottom: 5px;
+  color: #000103;
 }
 
 h6 {
   font-family: var(--ff-regular-400);
-  font-size: 16px;
+  font-size: 18px;
   padding-left: 25px;
-  font-weight: lighter;
+  font-weight: 500;
 }
 
 h4 {
