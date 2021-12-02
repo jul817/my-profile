@@ -13,7 +13,7 @@
   /* charcoal --color-bg: #2E4052; */
   /* --color-bg: #D8E8E7; */
   /* --color-bg: #C8E5F9; */
-  --color-bg: #EDF7F6;
+  --color-bg: #ECF6FD;
   /* --color-neutral: #FAFAFA; */
   /* font variables */
   --ff-primary-600: 'Montserrat', sans-serif;
@@ -32,14 +32,14 @@ body {
 
 h2 {
   margin-bottom: 5px;
-  color: #000103;
+  color: #F5F5F5;
 }
 
 h6 {
   font-family: var(--ff-regular-400);
   font-size: 18px;
   padding-left: 25px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h4 {
