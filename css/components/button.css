@@ -1,0 +1,12 @@
+.button-more {
+  border: 1px solid #072D4B;
+  text-decoration: none;
+  color: #072D4B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: max-content;
+  padding: 12px 48px;
+  border-radius: 30px;
+}
