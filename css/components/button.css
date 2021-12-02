@@ -10,3 +10,8 @@
   padding: 12px 48px;
   border-radius: 30px;
 }
+
+.button-more:hover {
+  background-color: #072D4B;
+  color: #F5F5F5;
+}

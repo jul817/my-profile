@@ -37,6 +37,7 @@ justify-content: left;
   padding: 10px 0;
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
+  margin-top: 20px;
 }
 
 .card-description h6 {
