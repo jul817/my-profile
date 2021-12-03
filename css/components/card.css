@@ -65,5 +65,19 @@ justify-content: left;
 }
 
 .card-tech {
-  min-height: 50vh;
+    min-height: 50vh;
+}
+
+.card-tech-title h2{
+  margin: 0 0 0 20px;
+}
+
+.card-tech-title {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.card-image {
+  /* margin-left: 20px; */
 }
