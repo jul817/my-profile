@@ -2,6 +2,7 @@
 @import url("components/card.css");
 @import url("components/button.css");
 @import url("components/pages/cv.css");
+@import url("components/pages/tech.css");
 
 *, *::before, *::after {
   box-sizing: border-box;
