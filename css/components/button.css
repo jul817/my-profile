@@ -34,7 +34,15 @@
   /* border: 1px solid #072D4B; */
   color: #F5F5F5;
   background-color: #072D4B;
-  margin: 0 20px;
+  margin: 0 20px 10px 20px;
   border-radius: 8px;
   text-decoration: none;
+}
+
+.button-download:hover {
+
+  border: 1px solid #072D4B;
+  background-color: #F5F5F5;
+  color: #072D4B;
+
 }
